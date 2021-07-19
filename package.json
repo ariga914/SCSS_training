@@ -1,0 +1,16 @@
+{
+    "name": "getting-started-scss",
+    "version": "1.0.0",
+    "description": "",
+    "main": "",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "scss:watch": "node-sass -w scss/ -o css/",
+        "scss:build": "node-sass -r scss/ -o css/"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "node-sass": "^6.0.1"
+    }
+}

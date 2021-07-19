@@ -1,0 +1,9 @@
+@charset "utf-8";
+//Import common definitions
+@import "partials/common/colors";
+@import "partials/common/genral";
+@import "partials/common/button";
+//import page partials
+@import "partials/header";
+@import "partials/login.scss";
+@import "partials/footer";
