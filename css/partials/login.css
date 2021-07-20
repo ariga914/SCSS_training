@@ -6,32 +6,28 @@
   max-width: 40rem;
   margin: 2rem auto;
   padding: 2rem; }
-  .form-login__control {
+  .form-login_control {
     margin: 1rem 0;
     display: flex;
     align-items: stretch;
     flex-direction: column; }
-    .form-login__control label,
-    .form-login__control input {
+    .form-login_control label,
+    .form-login_control input {
       display: block; }
-    .form-login__control label {
+    .form-login_control label {
       font-weight: bold;
       flex: 1;
-      color: black;
+      color: #464646;
       margin-bottom: 0.5rem; }
-    .form-login__control input {
+    .form-login_control input {
       flex: 3;
       font: inherit;
       padding: 0.35rem 0.35rem;
       border-radius: 6px;
-      border: 1px solid #00dbde; }
-      .form-login__control input:focus {
+      border: 1px solid cyan; }
+      .form-login_control input:focus {
         outline: none;
         border-color: #337ab7;
-        background: #f6dbfc; }
-  .form-login__actions {
+        background: pink; }
+  .form-login_actions {
     text-align: center; }
-  @media (min-width: 768px) {
-    .form-login__control {
-      align-items: center;
-      flex-direction: row; } }

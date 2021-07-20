@@ -1,6 +1,6 @@
 @mixin _button-disabled {
-    background: $pav-navy;
-    border-color: $pav-navy;
+    background-color: $pav-gray;
+    border-color: $pav-gray;
     color: $pav-white;
     cursor: not-allowed;
 }
@@ -14,6 +14,7 @@
     cursor: pointer;
     font-size: 1.15rem;
     border-radius: 30px;
+    &:hover,
     &:active {
         background: $pav-cyan;
         border-color: $pav-cyan;
